@@ -77,11 +77,9 @@ function App() {
               Clear
             </button>
 
-            {result !== null && (
               <p className="mt-2 text-lg">
-                ผลลัพธ์ของเลข : <strong>{result}</strong>
+                ผลลัพธ์ของเลข : <strong>{result === null ? 0 : result}</strong>
               </p>
-            )}
           </div>
         </div>
     </>
